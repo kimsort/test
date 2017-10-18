@@ -1,0 +1,8 @@
+{
+    "name": "MyPortfolio",
+    "description":  "PHP Portfolio",
+    "type": "project",
+    "require": {
+        "catfan/Medoo": "~1.4.5"
+    }
+}
