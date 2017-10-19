@@ -2,7 +2,19 @@
     "name": "MyPortfolio",
     "description":  "PHP Portfolio",
     "type": "project",
+    "author": [
+        {
+            "name": "Kim Taewoong",
+            "email": "comcool93@naver.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "catfan/Medoo": "~1.4.5"
-    }
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": ["controller/"]
+        }
+    },
 }

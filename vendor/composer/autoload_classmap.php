@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Medoo\\Medoo' => $vendorDir . '/catfan/medoo/src/Medoo.php',
 );

@@ -15,7 +15,7 @@ $__database['db'] = '';
 $__database['host'] = '';
 
 $site = array();
-$site['url'] = 'http://localhost';
+$site['url'] = 'http://localhost/test';
 $site['path'] = __DIR__;
 
 // URL
